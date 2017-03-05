@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Memahami penerapan Fungsi</title>
+</head>
+<body>
+<script>
+	function hitungLuasAlas ( p, l )
+ 
+		{
+		
+		var luas = p * l;
+		
+		return luas;
+		
+		}
+	
+	function hitungVolume ( la, t )
+	
+		{ 
+		var vol = la * t / 2;
+		
+		return vol;
+		}
+	
+	var panjang = 100; 
+	var lebar = 22; 
+	var tinggi = 3; 
+	var luasAlas; 
+	var volume;
+	
+	luasAlas = hitungLuasAlas(panjang, lebar);
+	
+	volume = hitungVolume(luasAlas, tinggi);
+	
+	alert(luasAlas);	
+	alert(volume);
+	
+</script>
+</body>
+</html>

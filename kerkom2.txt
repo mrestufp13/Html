@@ -1,0 +1,55 @@
+<HTML> 
+<HEAD> 
+<TITLE>Pengaturan pada Form</TITLE> 
+<STYLE ="text/css"> 
+	fieldset { border:1px solid greenyellow; width : 33%;}
+	input.button { color: #fff; background: #ffa20f; border: 2px outset #BBD16D; font-family: "calibri", Times, serif; font-size: 14px; font-weight: bold; width : auto; }
+	legend { color: #fff; background: #ffa20f; border: 0px outset #BBD16D; font-family: "calibri", Times, serif; font-size: 14px; font-weight: bold; width : auto; }
+</STYLE> 
+</HEAD> 
+<BODY bgcolor="silver"> 
+<form name="form1" method="post" action="">
+<fieldset>
+<legend>Daftar</legend> 
+<TABLE>  
+		<tr>
+			<td width="58" ><font color="black" >Nama </td> 
+			<td width="230" border-color="greenyellow">: <input type="text" name="nama" > </td> 
+		</tr> 
+		<tr> 
+		<td width="58"><font color="Black">KTP</td> 
+		<td width="230" >: <input type="text" name="alamat"></td> 
+		</tr> 
+		<td width="60"><font color="Black">Jenis Kelamin</td> 
+		<td width="230" >: <select name="jenis kelamin">
+			<option value="KA">Laki-Laki
+			<option value="MI">Perempuan
+		</tr>
+		<tr>
+		<td width="58"><font color="Black">TTL</td> 
+		<td width="100">: <input type="text" name="TTL">
+		<td width="230"  ><input type="text" name="TTL">
+		</tr> 
+		<td width="60"><font color="Black">Agama</td> 
+		<td width="230" >: <select name="jenis kelamin">
+			<option value="KA">Islam
+			<option value="MI">Kristen
+			<option value="TK">Hindu
+			<option value="BD">Budha
+			<option value="KT">Katolik
+		</tr>
+			</tr> 
+		<td width="60"><font color="Black">Status</td> 
+		<td width="230" >: <select name="jenis kelamin">
+			<option value="KA">Kawin
+			<option value="MI">Belum kawin
+			<option value="TK">Pelajar
+		</tr>
+		<tr>
+		<td><input class="button" type="submit" name="submit" value="Simpan"></td>
+		<td> <input class="button" type="submit" name="submit2" value="Submit"></td>
+	</table> 
+	</fieldset>
+</form> 
+</BODY> 
+</HTML>

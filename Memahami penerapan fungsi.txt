@@ -1,0 +1,5 @@
+<html>
+<head>
+<title>Memahami penerapan Fungsi</title>
+</head>
+<script language="javascirpt">

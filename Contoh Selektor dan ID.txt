@@ -1,0 +1,16 @@
+<html>
+<head>
+	<tittle>Contoh selektor kelas dan ID</tittle> 
+		<style type=”text/css”>
+		.kotak 
+		{ Border: solid; Padding: 5px; } 
+		#jawa { Background-color: #ccff66; /* latarbelakang */} 
+		#inggris { Font-weight: bold; Font-size: 1.2em; }
+		</style>
+	</head>
+	<body>
+		<div id=”Indonesia” class=”kotak”>Selamat pagi !</div>
+		<div id=”jawa”>Sugeng enjing !</div>
+		<div id=”inggris” class=”kotak”>Good morning !</div>
+	</body>
+	</html>
